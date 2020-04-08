@@ -1,0 +1,15 @@
+.new_title{
+  text-align: center;
+   margin:auto 10px ;
+   color: #333;
+  
+   
+}
+.new_title_txt span{
+    margin-left: 32px;
+}
+.new_title_txt{
+    margin-top: 16px;
+    font-size: 20px;
+    color: gray;
+}

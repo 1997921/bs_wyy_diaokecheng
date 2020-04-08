@@ -1,0 +1,13 @@
+
+.content-pag{
+    position: relative;
+    min-width: 768px;
+    max-width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    overflow: hidden;
+}

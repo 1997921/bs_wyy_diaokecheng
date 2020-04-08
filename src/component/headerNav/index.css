@@ -1,0 +1,75 @@
+.headerNav{
+    background: #ffff;
+    opacity: 0.8;
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 14px;
+    border: 1px solid transparent;
+    position: relative;
+    top:0;
+    left: 0;
+    border-bottom: 1px solid  #e7e7e7;
+}
+.headerNav-content{
+    min-width: 768px;
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+.headerNav-content-ico{
+    float: left;
+    height: 47px;
+    padding: 0;
+}
+.headerNav-content-ico img{
+    height:100%;
+  
+}
+.headerNav-content-user{
+    margin-bottom: 5px;
+    float: right;
+    height: 50px;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.headerNav-content-username{
+    min-width: 100px;
+    height:50px;
+    /* background-color: brown; */
+    text-align: center;
+    font-size: 18px;
+    line-height: 50px;
+    color: #999;
+   
+}
+.headerNav-content-userimg{
+    float: right;
+    height: 100%;
+    /* background-color:#399; */
+    
+}
+.dropdown{
+    height: 100%;
+}
+.headerNav-content-userimg .avatar {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin: 8px 24px 8px 16px;
+}
+.headerNav-content-userimg .avatar:before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    right: -14px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #999;
+}
+.headerNav-content-userimg img{
+    height: 100%;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}

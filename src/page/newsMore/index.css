@@ -1,0 +1,25 @@
+.newmore_list{
+    display: flex;
+    justify-content: center;
+    min-width: 220px;
+    max-width: 769px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin: 20px auto;
+}
+.newmore_list i{
+    margin-left: 32px;
+}
+.newmore_list span:hover{
+    cursor: pointer;
+    color:red;
+}
+.newmore_list span{
+    display: block;
+    width: 769px;
+}
+.newmore_list .newsData{
+    width: 100px;
+  margin-left: 20px;
+}

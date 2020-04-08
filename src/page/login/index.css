@@ -1,0 +1,62 @@
+/*
+* @Author: Rensen
+* @Date:   2019-11-25 21:41:59
+* @Last Modified by:   Rensen
+* @Last Modified time: 2019-11-25 21:50:02
+*/
+
+.login-panel{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	/* background: url(../../img/bg.png)  no-repeat; */
+	background: url(../../img/bg.gif);
+	/* background-size: 100% auto; */
+	/* color: #0a0a0a; */
+		color: #fff;
+}
+.login-panel .panel{
+   width: 600px;
+	/* margin-top: 222px; */
+   margin: 50px auto;
+
+}
+.login-panel .panel h1{
+
+	margin-left: -16px;
+	padding-top: 20px;
+	text-align: center;
+}
+.login-panel .panel .panel-content{
+	height: 200px;
+	padding: 28px 68px;
+
+}
+.login-panel .panel .panel-content input{
+	font-size: 16px;
+	width: 100%;
+	display: block;
+	padding: 12px;
+	margin-bottom: 40px;
+	border-radius: 8px;
+	background-color: transparent;
+}
+.login-panel .panel .panel-content input:hover{
+	border-color: gray;
+}
+.login-panel .panel .panel-content .panel-btn{
+	width: 100%;
+	color: green;
+	background-color: transparent;
+	border: 1px solid green;
+	padding: 12px;
+	font-weight: bold;
+
+}
+.login-panel .panel .panel-content .panel-btn:hover{
+background-color: green;
+color: #fff;
+font-weight: bold;
+cursor: pointer;
+
+}
